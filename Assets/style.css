@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     background-image: url("./images/Posh-1600x800.jpg");
-    height: 80vh;
+    height: 75vh;
     align-self: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -60,12 +60,28 @@
     cursor: pointer;
     transition-duration: 1s;
     box-shadow: 0 7px 14px 0, 0px 0px 0;
+    overflow: hidden;
 }
 
 .book-now-btn:hover {
     background-color: #BC9E9E;
     color: whitesmoke;
     box-shadow: 0 7px 14px 0, 0 17px 50px 0;
+}
+
+/* .target {
+    position: relative;
+    right: 60px;
+    height: auto;
+    margin: 0 auto !important;
+} */
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: Derivia-Regualar;
+    color: whitesmoke
 }
 
 /* #blankDiv {

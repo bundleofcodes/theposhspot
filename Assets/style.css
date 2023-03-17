@@ -18,6 +18,23 @@
     color: black;
 }
 
+.nav-booknow-hvrbtn {
+    border: solid black 1px;
+    background-color: #BC9E9E;
+    color: whitesmoke;
+    padding: 8px 20px;
+    /* border-radius: 40px; */
+    box-shadow: 0 5px 10px 0, 0px 0px 0;
+    transition: ease-out 500ms;
+}
+
+.nav-booknow-hvrbtn:hover {
+    background-color: #DACDCD;
+    color: #464646;
+    transition-duration: 500ms;
+    box-shadow: 0 5px 10px 0, 0 10px 30px 0;
+}
+
 .main {
     background-color: #FCF8ed;
     margin-top: 0;
@@ -39,21 +56,24 @@
     justify-content: center;
     -webkit-filter: grayscale(50%);
     filter: grayscale(50%);
+    text-align: center;
 }
 
 .hero-body {
-    height: 100vh;
-    width: 100vw;
+    /* margin-top: 325px !important; */
+    position: absolute;
+    bottom: 100px;
+    left: 160px;
+    /* height: 100vh;
+    width: 100vw; */
 }
 
 .book-now-btn {
-    display: flex;
-    justify-content: center;
-    text-align: right;
     border: solid black 1px;
     background: whitesmoke;
-    color: #BC9E9E;
-    padding: 5px 25px;
+    /* color: #BC9E9E; */
+    color:#464646;
+    padding: 5px 35px;
     display: inline-block;
     font-family:'Dancing Script', cursive;
     font-size: 30px;
@@ -67,14 +87,8 @@
     background-color: #BC9E9E;
     color: whitesmoke;
     box-shadow: 0 7px 14px 0, 0 17px 50px 0;
+    transition: ease-out 500ms;
 }
-
-/* .target {
-    position: relative;
-    right: 60px;
-    height: auto;
-    margin: 0 auto !important;
-} */
 
 .hero-text {
     display: flex;
@@ -84,10 +98,11 @@
     color: whitesmoke
 }
 
-/* #blankDiv {
-    display:flex;
-    width: 917px;
-} */
+.has-inline-font {
+    display: flex;
+    justify-content: center;
+
+}
 
 .main-header {
     text-align: center;
@@ -107,7 +122,7 @@
 }
 
 .main-text {
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .main-text-end {
@@ -115,10 +130,39 @@
     /* font-family: 'Allison', cursive; */
 }
 
-.posh-image-1 {
-    padding-left: 20px;
-    margin-bottom: 50px;
+.exploreNow-btn {
+    margin-bottom: 80px;
+    margin-left: 45%;
+    text-align: right;
+    border: solid black 1px;
+    background: #BC9E9E;
+    color: whitesmoke;
+    padding: 5px 25px;
+    display: inline-block;
+    font-family:'Dancing Script', cursive;
+    font-size: 25px;
+    cursor: pointer;
+    transition-duration: 100ms;
+    box-shadow: 0 5px 10px 0, 0px 0px 0;
 }
+
+.exploreNow-btn:hover {
+    background-color: #DACDCD;
+    color: #464646;
+    box-shadow: 0 5px 10px 0, 0 10px 30px 0;
+}
+
+.container-posh-img-1 {
+    position: relative;
+}
+
+.img-text-topleft {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+  }
+
+
 
 footer {
     text-align: center;

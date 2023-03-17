@@ -22,40 +22,55 @@
                 <span aria-hidden="true"></span>
             </a>
         </div>
-
         <div id="navbarBasicExample" class="navbar-menu p-2">
             <div class="navbar-end">
-                <a href="http://127.0.0.1:5500/index.html#home" class="navbar-item is-size-6">Home</a>
-                <a href="http://127.0.0.1:5500/about.html#about" class="navbar-item is-size-6">About</a>
-                <a href="http://127.0.0.1:5500/howitworks.html#how-it-works" class="navbar-item is-size-6">How it Works</a>
-                <a href="http://127.0.0.1:5500/packages.html#packages" class="navbar-item is-size-6">Packages</a>
-                <a href="http://127.0.0.1:5500/themes.html#themes" class="navbar-item is-size-6">Themes</a>
-                <a href="http://127.0.0.1:5500/addons.html#add-ons" class="navbar-item is-size-6">Add-Ons</a>
-                <a href="http://127.0.0.1:5500/poshpieces.html#posh-pieces" class="navbar-item is-size-6">Posh Pieces</a>
-                <a href="http://127.0.0.1:5500/booknow.html#book-now" class="navbar-item is-size-6">Book Now</a>
+                <a href="http://127.0.0.1:5500/index.html#home" class="navbar-item is-size-6" id='nav-bttn'>Home</a>
+                <a href="http://127.0.0.1:5500/about.html#about" class="navbar-item is-size-6" class="nav-bttn">About</a>
+                <a href="http://127.0.0.1:5500/howitworks.html#how-it-works" class="navbar-item is-size-6" class="nav-bttn">How it
+                    Works</a>
+                <a href="http://127.0.0.1:5500/packages.html#packages" class="navbar-item is-size-6" class="nav-bttn">Packages</a>
+                <a href="http://127.0.0.1:5500/themes.html#themes" class="navbar-item is-size-6" class="nav-bttn">Themes</a>
+                <a href="http://127.0.0.1:5500/addons.html#add-ons" class="navbar-item is-size-6" class="nav-bttn">Add-Ons</a>
+                <a href="http://127.0.0.1:5500/poshpieces.html#posh-pieces" class="navbar-item is-size-6"class="nav-bttn">Posh
+                    Pieces</a>
+                <!-- <a href="http://127.0.0.1:5500/booknow.html#book-now" class="navbar-item is-size-6" class="nav-book-hover">Book Now</a> -->
+                <a href="http://127.0.0.1:5500/booknow.html#book-now" class="navbar-item is-size-6" class="nav-book-hover" target "_blank" style>
+                    <span class="nav-booknow-hvrbtn">
+                        <span>
+                            <p>Book Now</p>
+                        </span>
+                    </span>
+                </a>
             </div>
         </div>
     </nav>
     <section class="hero has-background-light is-halfheight">
         <div class="hero-body" id="logo">
-            <div class="hero-text">
-                <h2>
+            <div class="test-position">
+                <a href="https://google.com" class="book-now-btn" target="_blank" style>
+                    <span class="book-now-hover">
+                        <span class="btn-content">
+                            <p>Book Now</p>
+                        </span>
+                    </span>
+                </a>
+                <div>
+                <!-- <h2 class="hero-text">
                     <span class="has-inline-font">
-                        <span class="hero-color">GET POSHY WITH IT,</span>
+                        <span class="hero-phrase">GET POSHY WITH IT,</span>
                         <br>
-                        <span class="hero-color">SAY IT IN A PICNIC</span>
+                        <span class="hero-phrase">SAY IT IN A PICNIC</span>
                     </span>
-                </h2>
-            </div>
-            <a href="https://google.com" class="book-now-btn" target="_blank" style>
-                <span class="book-now-hover">
-                    <span class="btn-content">
-                        <!-- <div id="blankDiv"> -->
-                        <p>Book Now</p>
+                </h2> -->
+                    <!-- //Above is the Hero Phrase,Not sure how to place this- Do not delete//
+                    //Below is the original positionon the Book Now Button,May need to assume original position- Do not delete// -->
+                <!-- <a href="https://google.com" class="book-now-btn" target="_blank" style>
+                    <span class="book-now-hover">
+                        <span class="btn-content">
+                            <p>Book Now</p>
+                        </span>
                     </span>
-                </span>
-                <!-- </div> -->
-            </a>
+                </a> -->
         </div>
     </section>
 
@@ -94,14 +109,12 @@
             </center>
         </p>
     </div>
-    <button onclick="window.location.href='https://google.com'">
-        Explore More
-      </button>
-    <section class="flex-container">
-        <div class="posh-image-1">
-            <img src="./assets/images/Posh6 3.jpeg">
+    <a href="http://127.0.0.1:5500/about.html#about" class="exploreNow-btn">Explore Now</a>
+        <div class="container-posh-img-1">
+            <img src="./assets/images/Posh6 3.jpeg" alt="moroccan themed picnic table design setup">
+            <div class="img-text-topleft">
+            <h4>Our Services</h4></div>
         </div>
-        
 
 
 
@@ -109,8 +122,6 @@
 
 
 
-
-    </section>
 
     <footer class="row-footer">
         <div class="container">

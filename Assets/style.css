@@ -1,4 +1,9 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.cdnfonts.com/css/derivia');
+@import url('https://fonts.cdnfonts.com/css/tenderness-5');
+@import url('https://fonts.cdnfonts.com/css/windsong');
+@import url('https://fonts.cdnfonts.com/css/martel-2');
+@import url('https://fonts.cdnfonts.com/css/objectivity');                
 
 *,
 *::before,
@@ -16,6 +21,10 @@
 
 .navbar-item {
     color: black;
+}
+
+.navbar-brand {
+    color: #FBF5F1;
 }
 
 .nav-booknow-hvrbtn {
@@ -79,36 +88,44 @@
     font-size: 30px;
     cursor: pointer;
     transition-duration: 1s;
-    box-shadow: 0 7px 14px 0, 0px 0px 0;
+    box-shadow: 0 7px 10px 0, 0px 0px 0;
     overflow: hidden;
 }
 
 .book-now-btn:hover {
     background-color: #BC9E9E;
-    color: whitesmoke;
-    box-shadow: 0 7px 14px 0, 0 17px 50px 0;
+    color:whitesmoke;
+    box-shadow: 0 5px 10px 0, 0 15px 30px 0;
     transition: ease-out 500ms;
 }
 
-.hero-text {
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    font-family: Derivia-Regualar;
-    color: whitesmoke
+/* .hero-text { */
+#hero-text-phrase {
+    position: relative;
+    font-size: 40px;
+    /* font-family: Derivia-Regualar; */
+    font-family: 'Dancing Script', cursive;
+    color:whitesmoke;
 }
 
-.has-inline-font {
-    display: flex;
-    justify-content: center;
-
+/* #hero-text-phrase { */
+.has-inline-block   {
+    position: absolute;
+    top: -295px;
+    left: -145px;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .main-header {
     text-align: center;
+    /* font-family: 'Tenderness', sans-serif;                                              */
     font-family:'Dancing Script', cursive;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
+    margin-bottom: 20px;
+    background: rgb(245,245,245);
+    background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(188,158,158,1) 100%);
     /* color: #BC9E9E; */
 }
 
@@ -122,17 +139,21 @@
 }
 
 .main-text {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-family: 'Martel', sans-serif;
 }
 
 .main-text-end {
-    font-family: fantasy;
+    font-family: 'Windsong', sans-serif;
+    font-size: 30px;
+    /* font-family: fantasy; */
     /* font-family: 'Allison', cursive; */
 }
 
 .exploreNow-btn {
-    margin-bottom: 80px;
-    margin-left: 45%;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 43.2%;
     text-align: right;
     border: solid black 1px;
     background: #BC9E9E;
@@ -158,11 +179,95 @@
 
 .img-text-topleft {
     position: absolute;
-    top: 50px;
-    left: 70px;
+    top: 5px;
+    left: 15px;
+    color: #FBF5F1;
+    font-size: 60px;
+    font-family: 'Qwigley', cursive;
   }
 
+  .overlay-text {
+    position: relative;
+    bottom: 760px;
+    left: 690px;
+    height: 680px;
+    width: 600px;
+    /* background: rgb(188,158,158);
+    background: linear-gradient(266deg, rgba(188,158,158,1) 25%, rgba(251,245,241,1) 100%); */
+    background:#FBF5F1;
+    text-align: center;
+    font-family: 'Derivia', sans-serif;                                         
+    font-size: 16px;
+    padding-top:100px;
+  }
 
+  .overlay-text-end {
+    font-family: 'Windsong', sans-serif;
+    font-size: 30px;
+    padding-bottom: 70px;                           
+  }
+
+ .packages-link {
+    color:#464646;
+    font-size: 13px;
+    font-family: 'Objectivity', sans-serif;
+    /* font-weight: bold; */
+    transition: 500ms ease;
+ }
+
+.packages-link:hover {
+    color: lightgray;
+    transition: 500ms ease;
+ }
+
+.h_line {
+    border-bottom: 1px solid #464646;
+    width: 450px;
+    margin: auto;
+    padding-top: 8px;
+}
+
+.arrow {
+    position: absolute;
+    top: 56.5%;
+    right: 68%;
+    transform: translate(-50%, -50%);
+    transform: rotate(270deg);
+    cursor: pointer;
+}
+
+.arrow span {
+    display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 5px solid #BC9E9E;
+    border-right: 5px solid #BC9E9E;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
 
 footer {
     text-align: center;

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Great+Vibes&family=Qwigley&display=swap"
+        rel="stylesheet">
     <title>The Posh Spot</title>
 </head>
 
@@ -25,16 +29,23 @@
         <div id="navbarBasicExample" class="navbar-menu p-2">
             <div class="navbar-end">
                 <a href="http://127.0.0.1:5500/index.html#home" class="navbar-item is-size-6" id='nav-bttn'>Home</a>
-                <a href="http://127.0.0.1:5500/about.html#about" class="navbar-item is-size-6" class="nav-bttn">About</a>
-                <a href="http://127.0.0.1:5500/howitworks.html#how-it-works" class="navbar-item is-size-6" class="nav-bttn">How it
+                <a href="http://127.0.0.1:5500/about.html#about" class="navbar-item is-size-6"
+                    class="nav-bttn">About</a>
+                <a href="http://127.0.0.1:5500/howitworks.html#how-it-works" class="navbar-item is-size-6"
+                    class="nav-bttn">How it
                     Works</a>
-                <a href="http://127.0.0.1:5500/packages.html#packages" class="navbar-item is-size-6" class="nav-bttn">Packages</a>
-                <a href="http://127.0.0.1:5500/themes.html#themes" class="navbar-item is-size-6" class="nav-bttn">Themes</a>
-                <a href="http://127.0.0.1:5500/addons.html#add-ons" class="navbar-item is-size-6" class="nav-bttn">Add-Ons</a>
-                <a href="http://127.0.0.1:5500/poshpieces.html#posh-pieces" class="navbar-item is-size-6"class="nav-bttn">Posh
+                <a href="http://127.0.0.1:5500/packages.html#packages" class="navbar-item is-size-6"
+                    class="nav-bttn">Packages</a>
+                <a href="http://127.0.0.1:5500/themes.html#themes" class="navbar-item is-size-6"
+                    class="nav-bttn">Themes</a>
+                <a href="http://127.0.0.1:5500/addons.html#add-ons" class="navbar-item is-size-6"
+                    class="nav-bttn">Add-Ons</a>
+                <a href="http://127.0.0.1:5500/poshpieces.html#posh-pieces" class="navbar-item is-size-6"
+                    class="nav-bttn">Posh
                     Pieces</a>
                 <!-- <a href="http://127.0.0.1:5500/booknow.html#book-now" class="navbar-item is-size-6" class="nav-book-hover">Book Now</a> -->
-                <a href="http://127.0.0.1:5500/booknow.html#book-now" class="navbar-item is-size-6" class="nav-book-hover" target "_blank" style>
+                <a href="http://127.0.0.1:5500/booknow.html#book-now" class="navbar-item is-size-6"
+                    class="nav-book-hover" target "_blank" style>
                     <span class="nav-booknow-hvrbtn">
                         <span>
                             <p>Book Now</p>
@@ -46,7 +57,7 @@
     </nav>
     <section class="hero has-background-light is-halfheight">
         <div class="hero-body" id="logo">
-            <div class="test-position">
+            <div>
                 <a href="https://google.com" class="book-now-btn" target="_blank" style>
                     <span class="book-now-hover">
                         <span class="btn-content">
@@ -54,17 +65,16 @@
                         </span>
                     </span>
                 </a>
-                <div>
-                <!-- <h2 class="hero-text">
-                    <span class="has-inline-font">
-                        <span class="hero-phrase">GET POSHY WITH IT,</span>
-                        <br>
-                        <span class="hero-phrase">SAY IT IN A PICNIC</span>
-                    </span>
-                </h2> -->
-                    <!-- //Above is the Hero Phrase,Not sure how to place this- Do not delete//
+            </div>
+            <h2 class="hero-text">
+                <div class="has-inline-block" class="has-inline-block2" id='hero-text-phrase'>
+                    <h4 class="has-inline-font">"We Design, You Unwind"</h4>
+
+                </div>
+            </h2>
+            <!-- //Above is the Hero Phrase,Not sure how to place this- Do not delete//
                     //Below is the original positionon the Book Now Button,May need to assume original position- Do not delete// -->
-                <!-- <a href="https://google.com" class="book-now-btn" target="_blank" style>
+            <!-- <a href="https://google.com" class="book-now-btn" target="_blank" style>
                     <span class="book-now-hover">
                         <span class="btn-content">
                             <p>Book Now</p>
@@ -77,9 +87,9 @@
     <header class="main-header">
         <h1>The Posh Spot</h1>
     </header>
-    <div class="subtitle-header">
+    <!-- <div class="subtitle-header">
         <p>"We Design, You Unwind"</p>
-    </div>
+    </div> -->
     <div class="main-text">
         <p>
             <center>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam assumenda odit molestiae ex, rerum
@@ -104,17 +114,51 @@
                 <br>
                 <br>
                 <p class="main-text-end">
-                    You're in good company.
+                    You're in good company
                 </p>
             </center>
         </p>
     </div>
     <a href="http://127.0.0.1:5500/about.html#about" class="exploreNow-btn">Explore Now</a>
-        <div class="container-posh-img-1">
-            <img src="./assets/images/Posh6 3.jpeg" alt="moroccan themed picnic table design setup">
-            <div class="img-text-topleft">
-            <h4>Our Services</h4></div>
+    <div class="container-posh-img-1">
+        <img src="./assets/images/Posh6.jpeg" alt="moroccan themed picnic table design setup" style="width: 55%;"
+            style="height:10%;">
+        <div class="img-text-topleft">
+            <h4>Our Services</h4>
         </div>
+        <div class="overlay-text">
+            <p class="overlay-header">
+                IMAGINE,<br>
+            </p>
+            <br>
+            <p>CATCH THAT LAST RAY OF SUNLIGHT OR<br> GATHER FOR A MIDDAY BRUNCH. NO MATTER<br> THE OCCASION WE CREATE
+                MEMORIES THAT<br> LEAVE AN IMPRINT.</p>
+            <br>
+            <p class="overlay-text-end">
+                bring your vision to life
+            </p>
+            <a href="http://127.0.0.1:5500/packages.html#packages" class="packages-link">SEE PACKAGES</a>
+            <div class="h_line"></div>
+            <a href="http://127.0.0.1:5500/packages.html#packages" class="packages-arrow-link">
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            </div>
+        </div>
+    </div>
+    <div>
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+    </div>
 
 
 

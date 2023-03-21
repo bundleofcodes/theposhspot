@@ -175,6 +175,8 @@
 
 .container-posh-img-1 {
     position: relative;
+    height: 80vh;
+    margin: 0;
 }
 
 .img-text-topleft {
@@ -268,6 +270,21 @@
         transform: rotate(45deg) translate(20px, 20px);
     }
 }
+
+.test {
+    border: 2px solid black;
+    height: 600px;
+
+}
+
+/* .vl {
+    border-left: 1px solid black;
+    height: 250px;
+    position: absolute;
+    right: 70%;
+    top: 835px;
+  } */
+
 
 footer {
     text-align: center;

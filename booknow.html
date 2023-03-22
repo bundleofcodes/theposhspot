@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/BookNowStyle.css">
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>Book Now</title>
@@ -27,13 +27,16 @@
             <div class="navbar-end">
                 <a href="http://127.0.0.1:5500/index.html#home" class="navbar-item is-size-6">Home</a>
                 <a href="http://127.0.0.1:5500/about.html#about" class="navbar-item is-size-6">About</a>
-                <a href="http://127.0.0.1:5500/howitworks.html#how-it-works" class="navbar-item is-size-6">How it Works</a>
+                <a href="http://127.0.0.1:5500/howitworks.html#how-it-works" class="navbar-item is-size-6">How it
+                    Works</a>
                 <a href="http://127.0.0.1:5500/packages.html#packages" class="navbar-item is-size-6">Packages</a>
                 <a href="http://127.0.0.1:5500/themes.html#themes" class="navbar-item is-size-6">Themes</a>
                 <a href="http://127.0.0.1:5500/addons.html#add-ons" class="navbar-item is-size-6">Add-Ons</a>
-                <a href="http://127.0.0.1:5500/poshpieces.html#posh-pieces" class="navbar-item is-size-6">Posh Pieces</a>
+                <a href="http://127.0.0.1:5500/poshpieces.html#posh-pieces" class="navbar-item is-size-6">Posh
+                    Pieces</a>
                 <!-- <a href="http://127.0.0.1:5500/booknow.html#book-now" class="navbar-item is-size-6">Book Now</a> -->
-                <a href="http://127.0.0.1:5500/booknow.html#book-now" class="navbar-item is-size-6" class="nav-book-hover" target "_blank" style>
+                <a href="http://127.0.0.1:5500/booknow.html#book-now" class="navbar-item is-size-6"
+                    class="nav-book-hover" target "_blank" style>
                     <span class="nav-booknow-hvrbtn">
                         <span>
                             <p>Book Now</p>
@@ -46,75 +49,203 @@
     <section class="Test">
         <h1>Book Now</h1>
     </section>
-    <div class="field">
-        <label class="label">First Name</label>
-        <div class="control">
-          <input class="input" type="text" placeholder="">
-        </div>
-      </div>
-      
-      <div class="field">
-        <label class="label">Last Name</label>
-        <div class="control has-icons-left has-icons-right">
-          <input class="input is-success" type="text" placeholder="" value="">
-          <span class="icon is-small is-left">
-            <i class="fas fa-user"></i>
-          </span>
-          <span class="icon is-small is-right">
-            <i class="fas fa-check"></i>
-          </span>
-        </div>
-        <!-- <p class="help is-success">This username is available</p> -->
-      </div>
 
-      <div class="field">
-        <label class="label">Phone Number</label>
-        <div class="control has-icons-left has-icons-right">
-          <input class="input is-success" type="text" placeholder="" value="">
-          <span class="icon is-small is-left">
-            <i class="fas fa-user"></i>
-          </span>
-          <span class="icon is-small is-right">
-            <i class="fas fa-check"></i>
-          </span>
+    <form>
+        <label class="required" id="test">FIRST NAME </label><br>
+        <!-- <label for="fname">First Name</label><br> -->
+        <input type="text" class="test-2" name="fname"><br>
+        <font size="-1" color="red">This field is required!</font><br>
+
+        <label class="required" id="test">LAST NAME </label><br>
+        <!-- <label for="lname">Last Name</label><br> -->
+        <input type="text" class="test-2" name="lname"><br>
+
+        <label class="required" id="test">PHONE NUMBER </label><br>
+        <!-- <label for="phnumber">Phone Number</label><br> -->
+        <input type="text" class="test-2" name="phnumber"><br>
+    
+        <label class="required" id="test">EMAIL </label><br>
+        <input type="text" class="test-2" name="email"><br>
+
+        <label id="norequire">OCCASION</label><br>
+        <input type="text" class="test-2" name="occasion"><br>
+
+        <label class="required" id="test">PREFERRED DATE </label><br>
+        <input type="text" class="test-2" name="prefdate"><br>
+
+        <label id="norequire">PREFERRED LOCATION</label><br>
+        <input type="text" class="test-2" name="prefloc"><br>
+
+        <label class="required" id="test">EXPECTED NUMBER OF GUESTS </label><br>
+        <input type="text" class="test-2" name="expguests"><br>
+
+        <label class="required" id="test">PREFERRED THEME </label><br>
+        <input type="text" class="test-2" name="preftheme"><br>
+
+        <label class="required" id="theme">PREFFERED THEME</label><br>
+           <div class="posh-options">
+        <select>
+            <option>Select</option>
+            <option>The Posh Standard</option>
+            <option>Oh My Posh!</option>
+            <option>Moods of Marrakech</option>
+            <option>C'est La Vueve</option>
+        </select>
         </div>
-        <!-- <p class="help is-success">This username is available</p> -->
-      </div>
-      
-      <div class="field">
-        <label class="label">Email</label>
-        <div class="control has-icons-left has-icons-right">
-          <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-          <span class="icon is-small is-left">
-            <i class="fas fa-envelope"></i>
-          </span>
-          <span class="icon is-small is-right">
-            <i class="fas fa-exclamation-triangle"></i>
-          </span>
+
+        <label id="norequire">COMMENT OR MESSAGE</label><br>
+        <input type="text" class="test-3" name="message"><br>
+   
+        
+
+    </form>
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+    <div class="field">
+        <label class="required">First Name </label>
+        <div class="control">
+            <input class="input is-dark" type="text" placeholder="" class="form-control">
+            <font size="-1" color="red">This field is required!</font>
         </div>
-        <p class="help is-danger">This email is invalid</p>
-      </div>
-      
-      <div class="field">
+    </div>
+
+    <!-- <input id="first-name" type="text" placeholder="" required="required" class="form-control"> -->
+
+    <div class="field" id="fieldTwo">
+        <label class="required">Last Name </label>
+        <div class="control has-icons-right">
+            <input class="input is-dark" type="text" placeholder="" value="">
+            <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+            </span>
+            <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="required">Phone Number </label>
+        <div class="control has-icons-right">
+            <input class="input is-dark" type="text" placeholder="" required="required" value="">
+            <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+            </span>
+            <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="required">Email </label>
+        <div class="control has-icons-right">
+            <input class="input is-dark" type="email" placeholder="" value="">
+            <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+        </div>
+        <!-- <p class="help is-danger">This email is invalid</p> -->
+    </div>
+
+    <div class="field">
+        <label class="label">Occasion</label>
+        <div class="control has-icons-right">
+            <input class="input is-dark" type="email" placeholder="" value="">
+            <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="required">Preferred Date </label>
+        <div class="control has-icons-right">
+            <input class="input is-dark" type="email" placeholder="" value="">
+            <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="label">Preferred Location</label>
+        <div class="control has-icons-right">
+            <input class="input is-dark" type="email" placeholder="" value="">
+            <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+        </div>
+        <!-- <p class="help is-danger">This email is invalid</p> -->
+    </div>
+
+    <div class="field">
+        <label class="required">Expected Number of Guests </label>
+        <div class="control has-icons-right">
+            <input class="input is-dark" type="email" placeholder="" value="">
+            <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="required">Preferred Theme </label>
+        <div class="control has-icons-right">
+            <input class="input is-dark" type="email" placeholder="" value="">
+            <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="field">
         <label class="label">Subject</label>
         <div class="control">
-          <div class="select">
-            <select>
-              <option>Select dropdown</option>
-              <option>With options</option>
-            </select>
-          </div>
+            <div class="select is-dark">
+                <select>
+                    <option>Select dropdown</option>
+                    <option>With options</option>
+                </select>
+            </div>
         </div>
-      </div>
-      
-      <div class="field">
-        <label class="label">Message</label>
+    </div>
+
+    <div class="field">
+        <label class="label">Comment or Message</label>
         <div class="control">
-          <textarea class="textarea" placeholder="Textarea"></textarea>
+            <textarea class="textarea is-dark" placeholder=""></textarea>
         </div>
-      </div>
-      
-      <div class="field">
+    </div>
+
+    <!-- <div class="field">
         <div class="control">
           <label class="checkbox">
             <input type="checkbox">
@@ -143,4 +274,7 @@
         <div class="control">
           <button class="button is-link is-light">Cancel</button>
         </div>
-      </div>
+      </div> -->
+
+    <br>
+    <br>

@@ -1,0 +1,72 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.cdnfonts.com/css/derivia');
+@import url('https://fonts.cdnfonts.com/css/tenderness-5');
+@import url('https://fonts.cdnfonts.com/css/windsong');
+@import url('https://fonts.cdnfonts.com/css/martel-2');
+@import url('https://fonts.cdnfonts.com/css/objectivity');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Ubuntu' sans-serif;
+    margin: 0;
+}
+
+.nav-booknow-hvrbtn {
+    border: solid black 1px;
+    background-color: #BC9E9E;
+    color: whitesmoke;
+    padding: 8px 20px;
+    /* border-radius: 40px; */
+    box-shadow: 0 5px 10px 0, 0px 0px 0;
+    transition: ease-out 500ms;
+}
+
+.nav-booknow-hvrbtn:hover {
+    background-color: #DACDCD;
+    color: #464646;
+    transition-duration: 500ms;
+    box-shadow: 0 5px 10px 0, 0 10px 30px 0;
+}
+
+.field{
+    width: 50%;
+    margin-left: 20%;
+    color: black;
+}
+
+.required::after {
+    content: "*";
+    color: red;
+}
+
+#test {
+    font-family: 'Derivia';
+    font-size: 14px;
+}
+
+.test-2 {
+    width: 30%;
+    height: 40px;
+}
+
+#norequire {
+    font-family: 'Derivia';
+    font-size: 14px;
+}
+
+#theme {
+    font-family: 'Derivia';
+    font-size: 14px;
+}
+
+.options {
+    font-family: 'Derivia';
+    font-size: 14px;
+}
+
+.test-3 {
+    width: 30%;
+    height: 150px;
+}

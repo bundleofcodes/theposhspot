@@ -188,7 +188,7 @@
 }
 
 .overlay-text {
-    /* position: relative; */
+    position: relative;
     /* bottom: 760px;
     left: 690px; */
     height: 680px;

@@ -50,9 +50,9 @@
         <h1>Book Now</h1>
     </section>
 
+    <section class="move">
     <form>
         <label class="required" id="test">FIRST NAME </label><br>
-        <!-- <label for="fname">First Name</label><br> -->
         <input type="text" class="test-2" name="fname"><br>
         <font size="-1" color="red">This field is required!</font><br>
 
@@ -79,8 +79,8 @@
         <label class="required" id="test">EXPECTED NUMBER OF GUESTS </label><br>
         <input type="text" class="test-2" name="expguests"><br>
 
-        <label class="required" id="test">PREFERRED THEME </label><br>
-        <input type="text" class="test-2" name="preftheme"><br>
+        <!-- <label class="required" id="test">PREFERRED THEME </label><br>
+        <input type="text" class="test-2" name="preftheme"><br> -->
 
         <label class="required" id="theme">PREFFERED THEME</label><br>
            <div class="posh-options">
@@ -93,188 +93,153 @@
         </select>
         </div>
 
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
         <label id="norequire">COMMENT OR MESSAGE</label><br>
-        <input type="text" class="test-3" name="message"><br>
-   
-        
-
+        <input type="text" class="text-3" name="message"><br>
     </form>
-
-
+</section>
 
 <br>
+
 <br>
 
+<br>
 
-
-
-
-
-    <div class="field">
-        <label class="required">First Name </label>
-        <div class="control">
-            <input class="input is-dark" type="text" placeholder="" class="form-control">
-            <font size="-1" color="red">This field is required!</font>
-        </div>
-    </div>
-
-    <!-- <input id="first-name" type="text" placeholder="" required="required" class="form-control"> -->
-
-    <div class="field" id="fieldTwo">
-        <label class="required">Last Name </label>
-        <div class="control has-icons-right">
-            <input class="input is-dark" type="text" placeholder="" value="">
-            <span class="icon is-small is-left">
-                <i class="fas fa-user"></i>
-            </span>
-            <span class="icon is-small is-right">
-                <i class="fas fa-check"></i>
-            </span>
-        </div>
-    </div>
-
-    <div class="field">
-        <label class="required">Phone Number </label>
-        <div class="control has-icons-right">
-            <input class="input is-dark" type="text" placeholder="" required="required" value="">
-            <span class="icon is-small is-left">
-                <i class="fas fa-user"></i>
-            </span>
-            <span class="icon is-small is-right">
-                <i class="fas fa-check"></i>
-            </span>
-        </div>
-    </div>
-
-    <div class="field">
-        <label class="required">Email </label>
-        <div class="control has-icons-right">
-            <input class="input is-dark" type="email" placeholder="" value="">
-            <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-            </span>
-            <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
-            </span>
-        </div>
-        <!-- <p class="help is-danger">This email is invalid</p> -->
-    </div>
-
-    <div class="field">
-        <label class="label">Occasion</label>
-        <div class="control has-icons-right">
-            <input class="input is-dark" type="email" placeholder="" value="">
-            <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-            </span>
-            <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
-            </span>
-        </div>
-    </div>
-
-    <div class="field">
-        <label class="required">Preferred Date </label>
-        <div class="control has-icons-right">
-            <input class="input is-dark" type="email" placeholder="" value="">
-            <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-            </span>
-            <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
-            </span>
-        </div>
-    </div>
-
-    <div class="field">
-        <label class="label">Preferred Location</label>
-        <div class="control has-icons-right">
-            <input class="input is-dark" type="email" placeholder="" value="">
-            <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-            </span>
-            <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
-            </span>
-        </div>
-        <!-- <p class="help is-danger">This email is invalid</p> -->
-    </div>
-
-    <div class="field">
-        <label class="required">Expected Number of Guests </label>
-        <div class="control has-icons-right">
-            <input class="input is-dark" type="email" placeholder="" value="">
-            <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-            </span>
-            <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
-            </span>
-        </div>
-    </div>
-
-    <div class="field">
-        <label class="required">Preferred Theme </label>
-        <div class="control has-icons-right">
-            <input class="input is-dark" type="email" placeholder="" value="">
-            <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-            </span>
-            <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
-            </span>
-        </div>
-    </div>
-
-    <div class="field">
-        <label class="label">Subject</label>
-        <div class="control">
-            <div class="select is-dark">
-                <select>
-                    <option>Select dropdown</option>
-                    <option>With options</option>
-                </select>
+<br>
+    
+<!-- //carousel code starts here// -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>What <b>Posh customers</b> are saying!</h2>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>   
+                            <!-- Wrapper for carousel items -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="media">
+                                                <div class="media-left d-flex mr-3">
+                                                    <a href="#">
+                                                        <img src="./assets/images/Posh9 2.jpeg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="testimonial">
+                                                        <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                                        <p class="overview"><b>Raiya Young</b>, Owner of The Posh Spot Atlanta</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="media">
+                                                <div class="media-left d-flex mr-3">
+                                                    <a href="#">
+                                                        <img src="./assets/images/Posh6.jpeg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="testimonial">
+                                                        <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                                                        <p class="overview"><b>Posh SPOTlight</b>, location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>			
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="media">
+                                                <div class="media-left d-flex mr-3">
+                                                    <a href="#">
+                                                        <img src="./assets/images/picnic2.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="testimonial">
+                                                        <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                                        <p class="overview"><b>Posh Spotlight</b>, location>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="media">
+                                                <div class="media-left d-flex mr-3">
+                                                    <a href="#">
+                                                        <img src="./assets/images/Image-115-768x1024.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="testimonial">
+                                                        <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                                                        <p class="overview"><b>Posh Spotlight</b>, location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>			
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="media">
+                                                <div class="media-left d-flex mr-3">
+                                                    <a href="#">
+                                                        <img src="./assets/images/1A3A9145-3.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="testimonial">
+                                                        <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                                        <p class="overview"><b>Posh Spotlight</b>, location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="media">
+                                                <div class="media-left d-flex mr-3">
+                                                    <a href="#">
+                                                        <img src="./assets/images/picnic.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="testimonial">
+                                                        <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                                                        <p class="overview"><b>Posh Spotlight</b>, location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>			
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
+            <!-- //carousel code ends here// -->
 
-    <div class="field">
-        <label class="label">Comment or Message</label>
-        <div class="control">
-            <textarea class="textarea is-dark" placeholder=""></textarea>
-        </div>
-    </div>
+            <br>
 
-    <!-- <div class="field">
-        <div class="control">
-          <label class="checkbox">
-            <input type="checkbox">
-            I agree to the <a href="#">terms and conditions</a>
-          </label>
-        </div>
-      </div>
-      
-      <div class="field">
-        <div class="control">
-          <label class="radio">
-            <input type="radio" name="question">
-            Yes
-          </label>
-          <label class="radio">
-            <input type="radio" name="question">
-            No
-          </label>
-        </div>
-      </div>
-      
-      <div class="field is-grouped">
-        <div class="control">
-          <button class="button is-link">Submit</button>
-        </div>
-        <div class="control">
-          <button class="button is-link is-light">Cancel</button>
-        </div>
-      </div> -->
-
-    <br>
-    <br>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>  

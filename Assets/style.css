@@ -4,6 +4,9 @@
 @import url('https://fonts.cdnfonts.com/css/windsong');
 @import url('https://fonts.cdnfonts.com/css/martel-2');
 @import url('https://fonts.cdnfonts.com/css/objectivity');
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,700";
 
 *,
 *::before,
@@ -174,24 +177,32 @@
 .container-posh-img-1 {
     display: flex;
     /* position: relative; */
-    height: 80vh;
+    height: 95vh;
     margin: 0;
 }
 
-.img-text-topleft {
+.imgTL {
     position: absolute;
-    top: 5px;
-    left: 15px;
-    color: #FBF5F1;
-    font-size: 60px;
+    margin-top: 25px;
+    left: 40px;
+    color: black;
+    /* color: #FBF5F1; */
+    font-size: 50px;
     font-family: 'Qwigley', cursive;
+    border: #BC9E9E solid 1px;
+    background-color:#FBF5F1;
+    height: 20px;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
 }
 
 .overlay-text {
     position: relative;
+    margin-right: 75px !important;
     /* bottom: 760px;
     left: 690px; */
-    height: 680px;
+    height: 720px;
     width: 600px;
     /* background: rgb(188,158,158);
     background: linear-gradient(266deg, rgba(188,158,158,1) 25%, rgba(251,245,241,1) 100%); */
@@ -200,6 +211,12 @@
     font-family: 'Derivia', sans-serif;
     font-size: 16px;
     padding-top: 100px;
+}
+
+.test-2 {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 46.5%;
 }
 
 .overlay-text-end {
@@ -230,7 +247,7 @@
 
 .arrow {
     position: absolute;
-    top: 56.5%;
+    top: 52.5%;
     right: 68%;
     transform: translate(-50%, -50%);
     transform: rotate(270deg);
@@ -272,20 +289,30 @@
     }
 }
 
-.test {
-    border: 2px solid black;
-    height: 600px;
-    width: 100vw;
+.flex-box_main-container {
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-top: 0px;
+    height: 300px;
+    width: 90vw;
 }
 
-/* .vl {
-    border-left: 1px solid black;
-    height: 250px;
-    position: absolute;
-    right: 70%;
-    top: 835px;
-  } */
+.slogan {
+    margin-left: 90px;
+    margin-top: 50px;
+    font-family: 'windsong';
+    font-size: 30px;
+}
 
+.line-1 {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 130px;
+}
+
+.line-2 {
+    width: 250px;
+}
 
 footer {
     text-align: center;

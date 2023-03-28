@@ -33,18 +33,16 @@
     box-shadow: 0 5px 10px 0, 0 10px 30px 0;
 }
 
-/* .field{
-    width: 50%;
-    margin-left: 20%;
-    color: black;
-} */
-
-.move {
+#booking-form {
     text-align: center;
-
+    font-family: 'Windsong';
+    font-size: 70px;
+    color:#DACDCD;
+    /* height: 60px; */
 }
 
-#booking-form {
+.header-pic {
+    height: 93vh;
 }
 
 .required::after {
@@ -54,15 +52,32 @@
 
 #test {
     /* flex-direction: column; */
-    position:relative;
+    /* position:relative; */
     font-family: 'Derivia';
     font-size: 14px;
+    justify-content: left;
+    text-align: left;
     /* flex-flow: row wrap; */
 }
 
 .test-2 {
     width: 50%;
     height: 50px;
+}
+
+.move form label {
+    text-align: left;
+}
+
+.mazin-label label {
+    font-family: 'Derivia';
+    font-size: 14px;
+}
+
+.mazin-label input {
+    margin-right: 50%;
+    height: 50px;
+    width: 70%;
 }
 
 #norequire {
@@ -75,14 +90,59 @@
     font-size: 14px;
 }
 
+.posh-options {
+    height: 40px;
+    width: 70%;
+    font-family: 'Derivia';
+    font-size: 16px;
+    font-style: italic;
+    /* font-weight: bold; */
+}
+
+#defaultCheck1 {
+    width: 12px;
+    display: flex;
+}
+
+#defaultCheck2 {
+    /* position: relative; */
+    display: flex;
+    flex-direction:row-reverse;
+    width: 12px;
+}
+
+#name-1 {
+    height: 70px;
+}
+
+.form-check-label {
+    margin-top: -100px;
+}
+
 .options {
     font-family: 'Derivia';
     font-size: 14px;
 }
 
-.text-3 {
-    width: 50%;
-    height: 180px;
+#msg-box {
+    height: 150px;
+}
+
+#send-msg {
+    width: 180px;
+    background-color: #BC9E9E;
+    color:#fff;
+}
+
+.send-msgBtn {
+    border: #000;
+    width: 180px;
+}
+
+#send-msg:hover {
+    background-color: #DACDCD;
+    color: #464646;
+    box-shadow: 0 1px 1px 0, 0 1px 1px 0;
 }
 
  /* //carousel code starts here// */

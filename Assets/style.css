@@ -56,8 +56,8 @@
 .hero {
     display: flex;
     flex-direction: column;
-    background-image: url("./images/Posh-1600x800.jpg");
-    height: 75vh;
+    background-image: url("./images/picnic2.png");
+    height: 55vh;
     align-self: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -319,4 +319,9 @@ footer {
     color: black;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
+}
+
+.tester {
+    height: 280px;
+    background-color: black;
 }

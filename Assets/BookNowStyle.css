@@ -30,19 +30,53 @@
     background-color: #DACDCD;
     color: #464646;
     transition-duration: 500ms;
-    box-shadow: 0 5px 10px 0, 0 10px 30px 0;
+    box-shadow: 0 2px 2px 0, 0 2px 2px 0;
 }
 
 #booking-form {
     text-align: center;
-    font-family: 'Windsong';
-    font-size: 70px;
+    font-family: 'Derivia';
+    font-size: 50px;
     color:#DACDCD;
-    /* height: 60px; */
+    background-color: #FBF5F1;
+    height: 220px;
 }
 
-.header-pic {
-    height: 93vh;
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/Posh-1600x800.jpg");
+    height: 40vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+    text-align: center;
+}
+
+#book-text {
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #464646;
+}
+
+#book-text2 {
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-family:'objectivity';
+    color: #464646;
+}
+
+#book-text3 {
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'objectivity';
+    color: #464646;
 }
 
 .required::after {
@@ -71,6 +105,8 @@
 
 .mazin-label label {
     font-family: 'Derivia';
+    margin-top: 25px;
+    /* margin-bottom: 80px; */
     font-size: 14px;
 }
 
@@ -78,6 +114,7 @@
     margin-right: 50%;
     height: 50px;
     width: 70%;
+
 }
 
 #norequire {
@@ -99,10 +136,47 @@
     /* font-weight: bold; */
 }
 
-#defaultCheck1 {
+.form-check {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#text001 {
     width: 12px;
     display: flex;
 }
+
+#text002 {
+    width: 12px;
+    display: flex;
+}
+
+#text003 {
+    width: 12px;
+    display: flex;
+}
+
+#text004 {
+    width: 12px;
+    display: flex;
+}
+
+#text005 {
+    width: 12px;
+    display: flex;
+}
+
+#text006 {
+    width: 12px;
+    display: flex;
+}
+
+#text007 {
+    width: 12px;
+    display: flex;
+}
+
 
 #defaultCheck2 {
     /* position: relative; */
@@ -126,6 +200,7 @@
 
 #msg-box {
     height: 150px;
+    width: 70%;
 }
 
 #send-msg {
@@ -224,3 +299,21 @@ h2::after {
     border: 5px double;    
 }
 /* //carousel code ends here// */
+
+#footer-style {
+    margin-bottom: 100px;
+    background-color:#DACDCD;
+}
+
+#footer-text {
+    margin-left: 78%;
+    padding-top: 6%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.scroll-to-top-label {
+    margin-left: 90%;
+}
